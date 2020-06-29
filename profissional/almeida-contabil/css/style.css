@@ -1,0 +1,48 @@
+.fonte-titulo-principal{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+}
+.fonte-titulo{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.fonte-texto{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.fonte-rodape{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subtitulo{
+    font-size: 1.5em;
+}
+
+.imagem-calculadora{
+    max-height: 400px;
+    width: 90%;
+    object-fit: cover;
+    object-position: 0 50%;
+    
+}
+.imagem-dinheiro{
+    max-height: 400px;
+    width: 90%;
+    object-fit: cover;
+    object-position: 0 50%;
+}
+
+.card-largura{
+    max-width: 14rem;
+}
+.card-imagem{
+    object-fit: cover;
+    max-height: 150px;
+}
+.caixa-imagem{
+    height: 150px;
+}
