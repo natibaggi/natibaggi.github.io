@@ -47,6 +47,17 @@
     height: 150px;
 }
 
+.caixa-imagem-funcionarios{
+    height: 200px;
+}
+.card-largura-funcionarios{
+    max-width: 18rem;
+}
+.foto-funcionarios{
+    object-fit: cover;
+    max-height: 200px;
+}
+
 
 
 .wrapper {
