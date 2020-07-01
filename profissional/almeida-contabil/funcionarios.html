@@ -18,73 +18,140 @@
             <!-- colocar a barra lateral -->
         </header>
 
-        <main>
-            <h2>Lista de Funcionários</h2>
-            <section class="row justify-content-center m-5">
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Luiz">
+        <main class="row m-0">
+            <div class="col-md-3 p-0">
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <a class="fonte-titulo-principal" href="index.html">Almeida Contábil</a>
                     </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Luiz</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                    <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Antonio">
-                </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Antonio</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Djalma">
-                    </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Djalma</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Jose">
-                    </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Jose</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Gilvan">
-                    </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Gilvan</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-                <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
-                    <div class="caixa-imagem-funcionarios">
-                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Florisvaldo">
-                    </div>
-                    <div class="card-body p-1">
-                        <h5 class="card-title fonte-texto">Florisvaldo</h5>
-                        <p>Descrição</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
+            
+                    <ul class="list-unstyled components">
+                        <p>Piazza Navona</p>
+                        <li class="active">
+                            <a href="#homeContabil" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contábil</a>
+                            <ul class="collapse list-unstyled" id="homeContabil">
+                                <li>
+                                    <a href="pagina-modelo.html">Balanço Financeiro do Mês</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Rateio do Mês</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Receita do Mês</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">RAIS</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">DIRF</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#homeDocumentos" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Documentos</a>
+                            <ul class="collapse list-unstyled" id="homeDocumentos">
+                                <li>
+                                    <a href="pagina-modelo.html">Certidão de Tributos Mobiliários</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Apólice de Seguros</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Agaplan</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Carta de Convocação</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Procuração</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#homeFuncionarios" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Funcionários</a>
+                            <ul class="collapse list-unstyled" id="homeFuncionarios">
+                                <li>
+                                    <a href="#">Lista de Funcionários</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">Escala dos Funcionários</a>
+                                </li>
+                                <li>
+                                    <a href="pagina-modelo.html">ART - Atestados</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Boletos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>     
 
-
-
-            </section>
+            <div id="conteudo" class="col-md-9">
+                <h2 class="fonte-texto m-4">Lista de Funcionários</h2>
+                <section class="row justify-content-center">
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                            <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Luiz">
+                        </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Luiz</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                        <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Antonio">
+                    </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Antonio</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                            <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Djalma">
+                        </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Djalma</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                            <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Jose">
+                        </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Jose</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                            <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Gilvan">
+                        </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Gilvan</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-largura-funcionarios col-12 col-md-4 m-3 p-1">
+                        <div class="caixa-imagem-funcionarios">
+                            <img class="card-img-top card-imagem" src="img/avatar-foto.jpg" alt="Foto Florisvaldo">
+                        </div>
+                        <div class="card-body p-1">
+                            <h5 class="card-title fonte-texto">Florisvaldo</h5>
+                            <p>Descrição</p>
+                            <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                </section>
 
         </main>
 
