@@ -47,11 +47,15 @@
     height: 150px;
 }
 
+.caixa-card-funcionarios{
+    max-width: 800px;
+}
+
 .caixa-imagem-funcionarios{
     height: 200px;
 }
 .card-largura-funcionarios{
-    max-width: 18rem;
+    max-width: 14rem;
 }
 .foto-funcionarios{
     object-fit: cover;
@@ -68,7 +72,8 @@
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    min-height: 100vh;
+    min-height: 200vh;
+    display: inline-block;
 }
 
 #sidebar.active {
@@ -158,4 +163,8 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #6d7fcc;
+}
+
+.alinhamento-barra-lateral{
+    display: inline;
 }
