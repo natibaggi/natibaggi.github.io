@@ -1,0 +1,2 @@
+print("natalia", "baggi", sep= "/")
+
